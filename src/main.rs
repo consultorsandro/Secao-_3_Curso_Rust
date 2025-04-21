@@ -1,5 +1,12 @@
 #[allow(unused_variables)]
 fn main() {
+    let pi: f64 = 3.1415;
+    println!("The current value of pi is {:.4}", pi);
+
+   
+}
+
+/*
     //Class 49
     let pi: f64 = 3.14151265984625731;
     println!("The current value of pi is {pi}");
@@ -8,9 +15,7 @@ fn main() {
     println!("{}", pi.floor());
     println!("{}", pi.ceil()); // Arredonda para cima
     println!("{}", pi.round()); // Arredonda para cima somente a partir de "0.5"
-    
-   
-}
+*/
 /*
     //Class 48
     let value: i32 = -15;
