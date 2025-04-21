@@ -1,10 +1,22 @@
-#[allow(unused_variables)]
+//#[allow(unused_variables)]
 fn main() {
-    let pi: f64 = 3.1415;
-    println!("The current value of pi is {:.4}", pi);
+    //Class 51
+    let miles_away = 50;
+    let miles_away_i8 = miles_away as i8;
+    let miles_away_u8 = miles_away as u8;
+
+    let miles_away = 100.329132;
+    let miles_away_f32 = miles_away as f32;
+    let miles_away_int = miles_away as i32;
+    println!("{}", miles_away_int);
 
    
 }
+    /*
+    // Class 50
+    let pi: f64 = 3.1415;
+    println!("The current value of pi is {:.4}", pi);
+     */
 
 /*
     //Class 49
