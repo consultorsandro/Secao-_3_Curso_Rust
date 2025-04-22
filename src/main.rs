@@ -1,6 +1,23 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 51
+    // cLASS 52
+    let addition = 5 + 4;
+    let subtraction = 10 - 6;
+    let multi = 3 * 4;
+    println!("Addition: {}, Subtraction {}, multi {}.", addition, subtraction, multi);
+
+    let floor_division = 5/3;
+    println!("{}", floor_division);
+
+    let decimal_division = 5.0 / 3.0;
+    println!("{:.2}", decimal_division);
+
+    let remainder = 9 % 2;
+    println!("{}", remainder);
+}
+
+/*
+ //Class 51
     let miles_away = 50;
     let miles_away_i8 = miles_away as i8;
     let miles_away_u8 = miles_away as u8;
@@ -9,9 +26,7 @@ fn main() {
     let miles_away_f32 = miles_away as f32;
     let miles_away_int = miles_away as i32;
     println!("{}", miles_away_int);
-
-   
-}
+*/
     /*
     // Class 50
     let pi: f64 = 3.1415;
