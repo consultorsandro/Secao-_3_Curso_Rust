@@ -1,5 +1,33 @@
 //#[allow(unused_variables)]
 fn main() {
+    //Class 54
+    let is_handsome = true;
+    let is_sille = false;
+    println!("Handsome: {}. Silly: {}.", is_handsome, is_sille);
+
+    let age: i32 = 40;
+    let is_young = age < 35;
+    println!("{}", is_young);
+    println!("{} {} ", age.is_positive(), age.is_negative()); //true or false
+
+}
+/*
+    //Class 53
+    let mut year = 2025;
+    year += 1;
+    println!("The new year is {}.", year);
+
+    year -= 5;
+    println!("The new year is {}.", year);
+
+    year *= 2;
+    println!("The new year is {}.", year);
+
+    year /= 4;
+    println!("The new year is {}.", year);
+*/
+
+/*
     // cLASS 52
     let addition = 5 + 4;
     let subtraction = 10 - 6;
@@ -14,7 +42,7 @@ fn main() {
 
     let remainder = 9 % 2;
     println!("{}", remainder);
-}
+*/
 
 /*
  //Class 51
