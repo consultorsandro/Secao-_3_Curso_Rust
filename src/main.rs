@@ -1,6 +1,17 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 54
+    //Class 55
+   println!("{}", !true);
+   println!("{}", !false);
+
+    let age = 13;
+    let can_se_rated_r_movie = age >= 17;
+    let cannot_see_r_rated_movie = !can_se_rated_r_movie;
+    println!("I am {} years old. Can I not see a rated R movie?{}", age, cannot_see_r_rated_movie);
+    
+}
+/*
+ //Class 54
     let is_handsome = true;
     let is_sille = false;
     println!("Handsome: {}. Silly: {}.", is_handsome, is_sille);
@@ -10,7 +21,8 @@ fn main() {
     println!("{}", is_young);
     println!("{} {} ", age.is_positive(), age.is_negative()); //true or false
 
-}
+*/
+
 /*
     //Class 53
     let mut year = 2025;
