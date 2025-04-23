@@ -1,6 +1,15 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 55
+    //Class 57
+    let purchase_tickets = true;
+    let plane_on_time = false;
+    let making_event = purchase_tickets && plane_on_time;
+    println!("It is {} tha I arraived as expected.", making_event);
+
+   
+}
+/*
+//Class 55
    println!("{}", !true);
    println!("{}", !false);
 
@@ -9,7 +18,7 @@ fn main() {
     let cannot_see_r_rated_movie = !can_se_rated_r_movie;
     println!("I am {} years old. Can I not see a rated R movie?{}", age, cannot_see_r_rated_movie);
     
-}
+*/
 /*
  //Class 54
     let is_handsome = true;
