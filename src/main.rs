@@ -1,13 +1,35 @@
 //#[allow(unused_variables)]
 fn main() {
+    //Class 60
+    
+
+}
+/*
+//Class 59
+    let first_initial = 'S';
+    let emoji: char = '😅'; //Tecla windows + . (ponto) para abrir o teclado de emojis
+    println!(
+        "{} {}",
+        first_initial.is_alphabetic(), // verifica se é alfabético
+        emoji.is_alphabetic()
+    );
+    println!(
+        "{} {}",
+        first_initial.is_uppercase(), emoji.is_uppercase() // verifica se é maiusculo
+    );
+    println!(
+        "{} {}",
+        first_initial.is_lowercase(), emoji.is_lowercase()); // verifica se é minusculo
+
+*/
+/*
+//Class 58
 let user_has_payed_for_subscription = true;
 let user_is_admin = true;
 let user_can_see_premium_experience = user_has_payed_for_subscription || user_is_admin;
 println!("Can this user see my site? {}",user_can_see_premium_experience);
 
-   
-}
-
+*/
 /*
     //Class 57
     let purchase_tickets = true;
@@ -24,7 +46,7 @@ println!("Can this user see my site? {}",user_can_see_premium_experience);
     let can_se_rated_r_movie = age >= 17;
     let cannot_see_r_rated_movie = !can_se_rated_r_movie;
     println!("I am {} years old. Can I not see a rated R movie?{}", age, cannot_see_r_rated_movie);
-    
+
 */
 /*
  //Class 54
@@ -83,11 +105,11 @@ println!("Can this user see my site? {}",user_can_see_premium_experience);
     let miles_away_int = miles_away as i32;
     println!("{}", miles_away_int);
 */
-    /*
-    // Class 50
-    let pi: f64 = 3.1415;
-    println!("The current value of pi is {:.4}", pi);
-     */
+/*
+// Class 50
+let pi: f64 = 3.1415;
+println!("The current value of pi is {:.4}", pi);
+ */
 
 /*
     //Class 49
@@ -110,7 +132,6 @@ println!("Can this user see my site? {}",user_can_see_premium_experience);
     println!("{}",value.pow(2));
     println!("{}",value.pow(3));
 */
-
 
 /*
 //Aula 44 Integers
