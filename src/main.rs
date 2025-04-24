@@ -1,7 +1,9 @@
 //#[allow(unused_variables)]
 fn main() {
     //Class 60
-    
+    let number = [4, 8, 15, 16, 23, 42];
+    let apples = ["Granny Smith", "McIntosh", "Red Delicious"];
+    println!("Lenght: {}", apples.len());// exibe o tamanho do array
 
 }
 /*
