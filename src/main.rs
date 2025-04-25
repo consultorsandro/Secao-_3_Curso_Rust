@@ -1,5 +1,44 @@
 //#[allow(unused_variables)]
 fn main() {
+    //Class 66
+    let month_days = 1..31;
+    println!("{:?}", month_days); // exibe o range inteiro
+
+    let month_days = 1..=31; // o último número é incluído
+    println!("{month_days:?}"); 
+
+    for number in month_days {
+        println!("day {}", number);
+    }
+
+    let letters = 'b'..'f';
+    for letter in letters {
+        println!("letter {}", letter);
+    }
+
+    let colors = ["red", "green", "yellow", ];
+    for color in colors {
+        println!("color {}", color);
+    }
+
+}
+    /*
+     //Class 65
+    let employee = ("Molly", 35, "Marketing");
+    let name = employee.0;
+    let age = employee.1;
+    let department = employee.2;
+
+    //   let (name, age, department) = employee; // em apenas uma linha
+    
+    println!("Name: {}, Age: {}, Department: {}", name, age, department);
+
+ 
+    println!("{:?}", employee); // exibe a tupla inteira
+    println!("{:#?}", employee); // exibe a tupla inteira com formatação debug
+
+     */
+    /*
     //Class 64
     let mut seasons = ["spring", "summer", "fall", "winter"];
     println!("{}", 5);
@@ -7,7 +46,7 @@ fn main() {
     println!("{}", 3.14);
   
     dbg!(seasons); // escrita simples para debugar
-    }
+     */
 /*
 //Class 63
     let mut seasons = ["spring", "summer", "fall", "winter"];
