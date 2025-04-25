@@ -1,5 +1,14 @@
 //#[allow(unused_variables)]
 fn main() {
+    //Class 63
+    let mut seasons = ["spring", "summer", "fall", "winter"];
+    println!("{}", 5);
+    println!("{}", true);
+    println!("{}", 3.14);
+    println!("{seasons:?}"); // exibe o array inteiro
+    println!("{seasons:#?}");// exibe o array inteiro com formatação debug
+}
+/*
 //Class 61
 let mut seasons = ["spring", "summer", "fall", "winter"];
 let first = seasons[0];
@@ -8,7 +17,8 @@ println!("The first season is {} and the second is {}", first, second);
 
 seasons[2] = "Autumn";
 println!("The third season is {}", seasons[2]);
-}
+*/
+
 /*
     //Class 60
     let number = [4, 8, 15, 16, 23, 42];
