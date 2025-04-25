@@ -1,13 +1,22 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 63
+    //Class 64
+    let mut seasons = ["spring", "summer", "fall", "winter"];
+    println!("{}", 5);
+    println!("{}", true);
+    println!("{}", 3.14);
+  
+    dbg!(seasons); // escrita simples para debugar
+    }
+/*
+//Class 63
     let mut seasons = ["spring", "summer", "fall", "winter"];
     println!("{}", 5);
     println!("{}", true);
     println!("{}", 3.14);
     println!("{seasons:?}"); // exibe o array inteiro
     println!("{seasons:#?}");// exibe o array inteiro com formatação debug
-}
+*/
 /*
 //Class 61
 let mut seasons = ["spring", "summer", "fall", "winter"];
