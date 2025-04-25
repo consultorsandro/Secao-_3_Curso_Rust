@@ -1,11 +1,20 @@
 //#[allow(unused_variables)]
 fn main() {
+//Class 61
+let mut seasons = ["spring", "summer", "fall", "winter"];
+let first = seasons[0];
+let second = seasons[1];
+println!("The first season is {} and the second is {}", first, second);
+
+seasons[2] = "Autumn";
+println!("The third season is {}", seasons[2]);
+}
+/*
     //Class 60
     let number = [4, 8, 15, 16, 23, 42];
     let apples = ["Granny Smith", "McIntosh", "Red Delicious"];
     println!("Lenght: {}", apples.len());// exibe o tamanho do array
-
-}
+*/
 /*
 //Class 59
     let first_initial = 'S';
