@@ -1,6 +1,12 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 66
+    //Class 67
+let month_days: std::ops::Range<i32> = 1..31; // Range generico
+let letters: std::ops::Range<char> = 'b'..'f'; // Range generico
+
+}
+/*
+//Class 66
     let month_days = 1..31;
     println!("{:?}", month_days); // exibe o range inteiro
 
@@ -21,7 +27,8 @@ fn main() {
         println!("color {}", color);
     }
 
-}
+*/
+
     /*
      //Class 65
     let employee = ("Molly", 35, "Marketing");
