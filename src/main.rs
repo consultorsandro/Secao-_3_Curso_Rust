@@ -1,10 +1,25 @@
 //#[allow(unused_variables)]
 fn main() {
-    //Class 67
-let month_days: std::ops::Range<i32> = 1..31; // Range generico
-let letters: std::ops::Range<char> = 'b'..'f'; // Range generico
+    let distance = 1_337;
+    let miles = distance as i16;
+    let height = 81.777;
+    println!("{:.3}", height);
 
+    let with_milk = true;
+    let with_sugar = true;
+
+    let is_my_type_of_coffee = with_milk && with_sugar;
+    let is_acceptble = with_milk || with_sugar;
+
+    let distances: [i8; 4] = [5, 15, 30, 60];
+    println!("{:#?}", distances);
+
+    let combo = (miles, height, is_my_type_of_coffee, distances);
+   println!("{:#?}", combo);
+
+    
 }
+
 /*
 //Class 66
     let month_days = 1..31;
