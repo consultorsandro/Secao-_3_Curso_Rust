@@ -1,5 +1,6 @@
 //#[allow(unused_variables)]
 fn main() {
+    //Class 69 Project
     let distance = 1_337;
     let miles = distance as i16;
     let height = 81.777;
